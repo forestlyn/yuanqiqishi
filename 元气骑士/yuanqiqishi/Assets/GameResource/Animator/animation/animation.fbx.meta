@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: d88b738dbab261a40a4bbd703e944d61
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: animation
+    100004: body
+    100006: body 1
+    100008: boss
+    100010: boss25
+    100012: enemy_group
+    100014: hand_left
+    100016: hand_right
+    100018: head
+    100020: img
+    100022: img 1
+    100024: left_weapon
+    100026: light
+    100028: light 1
+    100030: light 2
+    100032: light 3
+    100034: light 4
+    100036: light 5
+    100038: light 6
+    100040: light_1
+    100042: light_1 1
+    100044: light_1 2
+    100046: light_1 3
+    100048: light_1 4
+    100050: light_1 5
+    100052: light_1 6
+    100054: lightning_1
+    100056: lightning_2
+    100058: lightning_3
+    100060: lightning_4
+    100062: lightning_5
+    100064: lightning_6
+    100066: lightning_7
+    100068: lignt_0
+    100070: lignt_0 1
+    100072: lignt_0 2
+    100074: lignt_0 3
+    100076: lignt_0 4
+    100078: lignt_0 5
+    100080: lignt_0 6
+    100082: right_1
+    100084: right_2
+    100086: right_3
+    100088: Sceen Effect
+    100090: shadow
+    100092: shadow 1
+    100094: staff
+    100096: sword
+    400000: //RootNode
+    400002: animation
+    400004: body
+    400006: body 1
+    400008: boss
+    400010: boss25
+    400012: enemy_group
+    400014: hand_left
+    400016: hand_right
+    400018: head
+    400020: img
+    400022: img 1
+    400024: left_weapon
+    400026: light
+    400028: light 1
+    400030: light 2
+    400032: light 3
+    400034: light 4
+    400036: light 5
+    400038: light 6
+    400040: light_1
+    400042: light_1 1
+    400044: light_1 2
+    400046: light_1 3
+    400048: light_1 4
+    400050: light_1 5
+    400052: light_1 6
+    400054: lightning_1
+    400056: lightning_2
+    400058: lightning_3
+    400060: lightning_4
+    400062: lightning_5
+    400064: lightning_6
+    400066: lightning_7
+    400068: lignt_0
+    400070: lignt_0 1
+    400072: lignt_0 2
+    400074: lignt_0 3
+    400076: lignt_0 4
+    400078: lignt_0 5
+    400080: lignt_0 6
+    400082: right_1
+    400084: right_2
+    400086: right_3
+    400088: Sceen Effect
+    400090: shadow
+    400092: shadow 1
+    400094: staff
+    400096: sword
+    7400000: SwampEntranceBossPerform_show
+    7400002: SwampEntranceBossPerform_idle
+    7400004: SwampEntranceBossPerform_complete
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1166405751691410722}
   - component: {fileID: 1166405751691410727}
   - component: {fileID: 1166405751691410724}
+  - component: {fileID: 988616984}
   m_Layer: 0
   m_Name: Enemy2Magic
   m_TagString: Enemy
@@ -96,6 +97,10 @@ MonoBehaviour:
   moveSpeed: 3
   timeVal: 0
   lifeValue: 6
+  distance: 0
+  player: {fileID: 0}
+  EnemyBullet: {fileID: 7766339155361118576, guid: 34f674b022a785b45a86261e389998cb,
+    type: 3}
 --- !u!61 &1166405751691410724
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -122,3 +127,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.27, y: 0.32}
   m_EdgeRadius: 0
+--- !u!50 &988616984
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166405751691410723}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

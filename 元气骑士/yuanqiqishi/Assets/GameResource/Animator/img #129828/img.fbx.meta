@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: 0f8225ec9698e7e4a9a40b035a1b2c64
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: bar
+    100004: body
+    100006: collider
+    100008: collider 1
+    100010: dead_tap
+    100012: drive_container
+    100014: drive_position
+    100016: Exclamation
+    100018: floor_group
+    100020: gun_point
+    100022: gun_point 1
+    100024: gun_point 2
+    100026: h1
+    100028: h2
+    100030: hat
+    100032: head
+    100034: hp
+    100036: img
+    100038: //RootNode
+    100040: img 1
+    100042: item
+    100044: m_mech_3
+    100046: mech_3_1
+    100048: mech_3_1 1
+    100050: mount_hp
+    100052: npc_mount_mech
+    100054: room4_2
+    100056: shadow
+    100058: shadow 1
+    100060: sub_container
+    100062: sub_weapon
+    100064: w
+    100066: w 1
+    100068: w 2
+    100070: weapon_902
+    400000: back
+    400002: bar
+    400004: body
+    400006: collider
+    400008: collider 1
+    400010: dead_tap
+    400012: drive_container
+    400014: drive_position
+    400016: Exclamation
+    400018: floor_group
+    400020: gun_point
+    400022: gun_point 1
+    400024: gun_point 2
+    400026: h1
+    400028: h2
+    400030: hat
+    400032: head
+    400034: hp
+    400036: img
+    400038: //RootNode
+    400040: img 1
+    400042: item
+    400044: m_mech_3
+    400046: mech_3_1
+    400048: mech_3_1 1
+    400050: mount_hp
+    400052: npc_mount_mech
+    400054: room4_2
+    400056: shadow
+    400058: shadow 1
+    400060: sub_container
+    400062: sub_weapon
+    400064: w
+    400066: w 1
+    400068: w 2
+    400070: weapon_902
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

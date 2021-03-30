@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 328626319113055538}
   - component: {fileID: 328626319113055537}
   - component: {fileID: 6444773362011642064}
+  - component: {fileID: 1263694398}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Player
@@ -95,6 +96,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6106cf8574ddc4ca7e2b153cea3a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerLifeValue: 1
+  Shield: 6
   moveSpeed: 3
   timeVal: 0
   BulletPrefab: {fileID: 1928201187633698959, guid: 58b2880e747087642a9e5bf120d257b3,
@@ -146,7 +149,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 4
 --- !u!95 &6444773362011642064
 Animator:
   serializedVersion: 3
@@ -166,3 +169,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1263694398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 328626319113055536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ced0e0abaf11c2847982e93ae7cb5fa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifeValue: 3
+  playerScore: 0
+  isDead: 0
+  isDefeat: 0
+  Born: {fileID: 0}
+  textPlayerScore: {fileID: 0}
+  textPlayerLifeValue: {fileID: 0}

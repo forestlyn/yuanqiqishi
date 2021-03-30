@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: 4863ff4e423e71c4b81227f0cf3871f6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: a
+    100002: a0_1
+    100004: a0_5
+    100006: a10_11
+    100008: a10_15
+    100010: a11_12
+    100012: a11_16
+    100014: a12_13
+    100016: a12_17
+    100018: a13_14
+    100020: a13_18
+    100022: a14_19
+    100024: a15_16
+    100026: a15_20
+    100028: a16_17
+    100030: a16_21
+    100032: a17_18
+    100034: a17_22
+    100036: a18_19
+    100038: a18_23
+    100040: a19_24
+    100042: a1_2
+    100044: a1_6
+    100046: a20_21
+    100048: a21_22
+    100050: a22_23
+    100052: a23_24
+    100054: a2_3
+    100056: a2_7
+    100058: a3_4
+    100060: a3_8
+    100062: a4_9
+    100064: a5_10
+    100066: a5_6
+    100068: a6_11
+    100070: a6_7
+    100072: a7_12
+    100074: a7_8
+    100076: a8_13
+    100078: a8_9
+    100080: a9_14
+    100082: armor_bar
+    100084: auto_destroy
+    100086: b1
+    100088: background
+    100090: badass_mode
+    100092: battle_factors
+    100094: bg
+    100096: bg 1
+    100098: bg 2
+    100100: bg 3
+    100102: bg 4
+    100104: bg 5
+    100106: bg 6
+    100108: bg 7
+    100110: bg 8
+    100112: bg_selected
+    100114: bossrush_mode
+    100116: btn
+    100118: btn_anti_info
+    100120: btn_arrow
+    100122: btn_atk
+    100124: btn_axis
+    100126: btn_back
+    100128: btn_bar1
+    100130: btn_bar2
+    100132: btn_bgm
+    100134: btn_continue
+    100136: btn_control
+    100138: btn_effect
+    100140: btn_emoticon
+    100142: btn_group
+    100144: btn_home
+    100146: btn_home 1
+    100148: btn_ktplay
+    100150: btn_ktplay 1
+    100152: btn_levelup
+    100154: btn_no
+    100156: btn_ok
+    100158: btn_pause
+    100160: btn_rec
+    100162: btn_reward
+    100164: btn_roomId
+    100166: btn_setting
+    100168: btn_shake
+    100170: btn_share
+    100172: btn_shop
+    100174: btn_skill
+    100176: btn_special
+    100178: btn_weapon
+    100180: btn_yes
+    100182: buff
+    100184: buff_info
+    100186: buff_list
+    100188: Button
+    100190: Button 1
+    100192: //RootNode
+    100194: cd_text
+    100196: clear
+    100198: cn
+    100200: cn_img
+    100202: coin
+    100204: control
+    100206: count_down
+    100208: curtain
+    100210: custom_icon
+    100212: dont_destroy
+    100214: down
+    100216: down 1
+    100218: down 2
+    100220: down 3
+    100222: en
+    100224: en_img
+    100226: energy_bar
+    100228: factor_proto
+    100230: feedbackBtn
+    100232: fish
+    100234: gem
+    100236: GemLayout
+    100238: hopperTicket
+    100240: hp_bar
+    100242: icon
+    100244: icon 1
+    100246: icon 2
+    100248: Image
+    100250: Image 1
+    100252: Image 10
+    100254: Image 11
+    100256: Image 12
+    100258: Image 13
+    100260: Image 14
+    100262: Image 15
+    100264: Image 16
+    100266: Image 17
+    100268: Image 18
+    100270: Image 19
+    100272: Image 2
+    100274: Image 20
+    100276: Image 21
+    100278: Image 22
+    100280: Image 23
+    100282: Image 24
+    100284: Image 25
+    100286: Image 26
+    100288: Image 27
+    100290: Image 28
+    100292: Image 29
+    100294: Image 3
+    100296: Image 30
+    100298: Image 31
+    100300: Image 32
+    100302: Image 33
+    100304: Image 34
+    100306: Image 35
+    100308: Image 36
+    100310: Image 37
+    100312: Image 38
+    100314: Image 39
+    100316: Image 4
+    100318: Image 40
+    100320: Image 41
+    100322: Image 42
+    100324: Image 43
+    100326: Image 44
+    100328: Image 5
+    100330: Image 6
+    100332: Image 7
+    100334: Image 8
+    100336: Image 9
+    100338: img
+    100340: img 1
+    100342: img 2
+    100344: img 3
+    100346: img 4
+    100348: img 5
+    100350: img_fusion
+    100352: img_hero
+    100354: img_special
+    100356: info
+    100358: info_bar
+    100360: infox
+    100362: item
+    100364: item_info
+    100366: joystick
+    100368: Layout
+    100370: Layout 1
+    100372: Left
+    100374: level_icon
+    100376: level_text
+    100378: line
+    100380: list_skill
+    100382: lock
+    100384: long_text
+    100386: map_info
+    100388: map_info_root
+    100390: mask
+    100392: mask_down
+    100394: mask_ready
+    100396: mask_up
+    100398: materials
+    100400: mech_panel
+    100402: mech_panel 1
+    100404: message_bar
+    100406: mode_item
+    100408: mode_item 1
+    100410: model_content
+    100412: name_text
+    100414: name_text 1
+    100416: net_info
+    100418: NotVerifyTag
+    100420: panel
+    100422: panel 1
+    100424: panel 2
+    100426: panel 3
+    100428: rebornCard
+    100430: red_point
+    100432: redPoint
+    100434: redPoint 1
+    100436: redPoint 2
+    100438: Right
+    100440: room
+    100442: room00
+    100444: room01
+    100446: room02
+    100448: room03
+    100450: room04
+    100452: room10
+    100454: room11
+    100456: room12
+    100458: room13
+    100460: room14
+    100462: room20
+    100464: room21
+    100466: room22
+    100468: room23
+    100470: room24
+    100472: room30
+    100474: room31
+    100476: room32
+    100478: room33
+    100480: room34
+    100482: room40
+    100484: room41
+    100486: room42
+    100488: room43
+    100490: room44
+    100492: roomId
+    100494: s1
+    100496: s2
+    100498: s3
+    100500: s4
+    100502: s5
+    100504: setting_bar
+    100506: skill
+    100508: skill_count
+    100510: skillIcon
+    100512: star_bar
+    100514: state_bar
+    100516: state_text
+    100518: state_text 1
+    100520: target
+    100522: temp_ui
+    100524: Text
+    100526: text
+    100528: Text 1
+    100530: text 1
+    100532: Text 10
+    100534: Text 11
+    100536: Text 12
+    100538: Text 13
+    100540: Text 14
+    100542: Text 15
+    100544: Text 16
+    100546: Text 17
+    100548: Text 18
+    100550: Text 19
+    100552: Text 2
+    100554: Text 20
+    100556: Text 21
+    100558: Text 22
+    100560: Text 23
+    100562: Text 24
+    100564: Text 25
+    100566: Text 26
+    100568: Text 27
+    100570: Text 28
+    100572: Text 29
+    100574: Text 3
+    100576: Text 30
+    100578: Text 31
+    100580: Text 32
+    100582: Text 33
+    100584: Text 34
+    100586: Text 4
+    100588: Text 5
+    100590: Text 6
+    100592: Text 7
+    100594: Text 8
+    100596: Text 9
+    100598: Text1
+    100600: Text2
+    100602: text_cn
+    100604: text_cn 1
+    100606: text_cn 2
+    100608: text_en
+    100610: text_en 1
+    100612: text_en 2
+    100614: text_gems
+    100616: text_name
+    100618: text_subtitle
+    100620: ticket
+    100622: ticket_img
+    100624: TimeText
+    100626: title
+    100628: title 1
+    100630: title 2
+    100632: token_coin
+    100634: ui_chose
+    100636: ui_left
+    100638: ui_left _skin
+    100640: ui_rigjt
+    100642: ui_rigjt_skin
+    100644: up
+    100646: up 1
+    100648: up 2
+    100650: up 3
+    100652: value1
+    100654: value1 1
+    100656: value1 2
+    100658: value2
+    100660: value2 1
+    100662: value2 2
+    100664: value3
+    100666: value3 1
+    100668: value3 2
+    100670: value4
+    100672: value4 1
+    100674: value5
+    100676: value6
+    100678: warn
+    100680: warn 1
+    100682: warn 2
+    100684: weapon
+    100686: weapon_item_icon
+    100688: weapon_type_list
+    100690: window_pause
+    400000: a
+    400002: a0_1
+    400004: a0_5
+    400006: a10_11
+    400008: a10_15
+    400010: a11_12
+    400012: a11_16
+    400014: a12_13
+    400016: a12_17
+    400018: a13_14
+    400020: a13_18
+    400022: a14_19
+    400024: a15_16
+    400026: a15_20
+    400028: a16_17
+    400030: a16_21
+    400032: a17_18
+    400034: a17_22
+    400036: a18_19
+    400038: a18_23
+    400040: a19_24
+    400042: a1_2
+    400044: a1_6
+    400046: a20_21
+    400048: a21_22
+    400050: a22_23
+    400052: a23_24
+    400054: a2_3
+    400056: a2_7
+    400058: a3_4
+    400060: a3_8
+    400062: a4_9
+    400064: a5_10
+    400066: a5_6
+    400068: a6_11
+    400070: a6_7
+    400072: a7_12
+    400074: a7_8
+    400076: a8_13
+    400078: a8_9
+    400080: a9_14
+    400082: armor_bar
+    400084: auto_destroy
+    400086: b1
+    400088: background
+    400090: badass_mode
+    400092: battle_factors
+    400094: bg
+    400096: bg 1
+    400098: bg 2
+    400100: bg 3
+    400102: bg 4
+    400104: bg 5
+    400106: bg 6
+    400108: bg 7
+    400110: bg 8
+    400112: bg_selected
+    400114: bossrush_mode
+    400116: btn
+    400118: btn_anti_info
+    400120: btn_arrow
+    400122: btn_atk
+    400124: btn_axis
+    400126: btn_back
+    400128: btn_bar1
+    400130: btn_bar2
+    400132: btn_bgm
+    400134: btn_continue
+    400136: btn_control
+    400138: btn_effect
+    400140: btn_emoticon
+    400142: btn_group
+    400144: btn_home
+    400146: btn_home 1
+    400148: btn_ktplay
+    400150: btn_ktplay 1
+    400152: btn_levelup
+    400154: btn_no
+    400156: btn_ok
+    400158: btn_pause
+    400160: btn_rec
+    400162: btn_reward
+    400164: btn_roomId
+    400166: btn_setting
+    400168: btn_shake
+    400170: btn_share
+    400172: btn_shop
+    400174: btn_skill
+    400176: btn_special
+    400178: btn_weapon
+    400180: btn_yes
+    400182: buff
+    400184: buff_info
+    400186: buff_list
+    400188: Button
+    400190: Button 1
+    400192: //RootNode
+    400194: cd_text
+    400196: clear
+    400198: cn
+    400200: cn_img
+    400202: coin
+    400204: control
+    400206: count_down
+    400208: curtain
+    400210: custom_icon
+    400212: dont_destroy
+    400214: down
+    400216: down 1
+    400218: down 2
+    400220: down 3
+    400222: en
+    400224: en_img
+    400226: energy_bar
+    400228: factor_proto
+    400230: feedbackBtn
+    400232: fish
+    400234: gem
+    400236: GemLayout
+    400238: hopperTicket
+    400240: hp_bar
+    400242: icon
+    400244: icon 1
+    400246: icon 2
+    400248: Image
+    400250: Image 1
+    400252: Image 10
+    400254: Image 11
+    400256: Image 12
+    400258: Image 13
+    400260: Image 14
+    400262: Image 15
+    400264: Image 16
+    400266: Image 17
+    400268: Image 18
+    400270: Image 19
+    400272: Image 2
+    400274: Image 20
+    400276: Image 21
+    400278: Image 22
+    400280: Image 23
+    400282: Image 24
+    400284: Image 25
+    400286: Image 26
+    400288: Image 27
+    400290: Image 28
+    400292: Image 29
+    400294: Image 3
+    400296: Image 30
+    400298: Image 31
+    400300: Image 32
+    400302: Image 33
+    400304: Image 34
+    400306: Image 35
+    400308: Image 36
+    400310: Image 37
+    400312: Image 38
+    400314: Image 39
+    400316: Image 4
+    400318: Image 40
+    400320: Image 41
+    400322: Image 42
+    400324: Image 43
+    400326: Image 44
+    400328: Image 5
+    400330: Image 6
+    400332: Image 7
+    400334: Image 8
+    400336: Image 9
+    400338: img
+    400340: img 1
+    400342: img 2
+    400344: img 3
+    400346: img 4
+    400348: img 5
+    400350: img_fusion
+    400352: img_hero
+    400354: img_special
+    400356: info
+    400358: info_bar
+    400360: infox
+    400362: item
+    400364: item_info
+    400366: joystick
+    400368: Layout
+    400370: Layout 1
+    400372: Left
+    400374: level_icon
+    400376: level_text
+    400378: line
+    400380: list_skill
+    400382: lock
+    400384: long_text
+    400386: map_info
+    400388: map_info_root
+    400390: mask
+    400392: mask_down
+    400394: mask_ready
+    400396: mask_up
+    400398: materials
+    400400: mech_panel
+    400402: mech_panel 1
+    400404: message_bar
+    400406: mode_item
+    400408: mode_item 1
+    400410: model_content
+    400412: name_text
+    400414: name_text 1
+    400416: net_info
+    400418: NotVerifyTag
+    400420: panel
+    400422: panel 1
+    400424: panel 2
+    400426: panel 3
+    400428: rebornCard
+    400430: red_point
+    400432: redPoint
+    400434: redPoint 1
+    400436: redPoint 2
+    400438: Right
+    400440: room
+    400442: room00
+    400444: room01
+    400446: room02
+    400448: room03
+    400450: room04
+    400452: room10
+    400454: room11
+    400456: room12
+    400458: room13
+    400460: room14
+    400462: room20
+    400464: room21
+    400466: room22
+    400468: room23
+    400470: room24
+    400472: room30
+    400474: room31
+    400476: room32
+    400478: room33
+    400480: room34
+    400482: room40
+    400484: room41
+    400486: room42
+    400488: room43
+    400490: room44
+    400492: roomId
+    400494: s1
+    400496: s2
+    400498: s3
+    400500: s4
+    400502: s5
+    400504: setting_bar
+    400506: skill
+    400508: skill_count
+    400510: skillIcon
+    400512: star_bar
+    400514: state_bar
+    400516: state_text
+    400518: state_text 1
+    400520: target
+    400522: temp_ui
+    400524: Text
+    400526: text
+    400528: Text 1
+    400530: text 1
+    400532: Text 10
+    400534: Text 11
+    400536: Text 12
+    400538: Text 13
+    400540: Text 14
+    400542: Text 15
+    400544: Text 16
+    400546: Text 17
+    400548: Text 18
+    400550: Text 19
+    400552: Text 2
+    400554: Text 20
+    400556: Text 21
+    400558: Text 22
+    400560: Text 23
+    400562: Text 24
+    400564: Text 25
+    400566: Text 26
+    400568: Text 27
+    400570: Text 28
+    400572: Text 29
+    400574: Text 3
+    400576: Text 30
+    400578: Text 31
+    400580: Text 32
+    400582: Text 33
+    400584: Text 34
+    400586: Text 4
+    400588: Text 5
+    400590: Text 6
+    400592: Text 7
+    400594: Text 8
+    400596: Text 9
+    400598: Text1
+    400600: Text2
+    400602: text_cn
+    400604: text_cn 1
+    400606: text_cn 2
+    400608: text_en
+    400610: text_en 1
+    400612: text_en 2
+    400614: text_gems
+    400616: text_name
+    400618: text_subtitle
+    400620: ticket
+    400622: ticket_img
+    400624: TimeText
+    400626: title
+    400628: title 1
+    400630: title 2
+    400632: token_coin
+    400634: ui_chose
+    400636: ui_left
+    400638: ui_left _skin
+    400640: ui_rigjt
+    400642: ui_rigjt_skin
+    400644: up
+    400646: up 1
+    400648: up 2
+    400650: up 3
+    400652: value1
+    400654: value1 1
+    400656: value1 2
+    400658: value2
+    400660: value2 1
+    400662: value2 2
+    400664: value3
+    400666: value3 1
+    400668: value3 2
+    400670: value4
+    400672: value4 1
+    400674: value5
+    400676: value6
+    400678: warn
+    400680: warn 1
+    400682: warn 2
+    400684: weapon
+    400686: weapon_item_icon
+    400688: weapon_type_list
+    400690: window_pause
+    7400000: show_atk_btn_switch
+    7400002: show_atk_btn_item
+    7400004: show_atk_btn_atk
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

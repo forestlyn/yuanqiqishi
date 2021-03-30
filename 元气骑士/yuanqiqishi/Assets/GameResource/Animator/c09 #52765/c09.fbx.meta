@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: 7bc0febcf3f7a964291f0970e9d62ea0
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: back
+    100002: back2
+    100004: body
+    100006: body_head
+    100008: //RootNode
+    100010: c09
+    100012: collider
+    100014: dead_tap
+    100016: effect
+    100018: effect 1
+    100020: focus
+    100022: h1
+    100024: head
+    100026: img
+    100028: img 1
+    100030: obj
+    100032: particle
+    100034: particle_fire
+    100036: particle_l
+    100038: particle_r
+    100040: paw
+    100042: paw 1
+    100044: paw_l
+    100046: paw_r
+    100048: shadow
+    100050: shadow_lock
+    100052: talk
+    100054: wings
+    400000: back
+    400002: back2
+    400004: body
+    400006: body_head
+    400008: c09
+    400010: //RootNode
+    400012: collider
+    400014: dead_tap
+    400016: effect
+    400018: effect 1
+    400020: focus
+    400022: h1
+    400024: head
+    400026: img
+    400028: img 1
+    400030: obj
+    400032: particle
+    400034: particle_fire
+    400036: particle_l
+    400038: particle_r
+    400040: paw
+    400042: paw 1
+    400044: paw_l
+    400046: paw_r
+    400048: shadow
+    400050: shadow_lock
+    400052: talk
+    400054: wings
+    7400000: skin_13_run
+    7400002: skin_13_dead
+    7400004: skin_13_skill_idle
+    7400006: skin_13_skill_run
+    7400008: skill_13
+    7400010: skill_eat_13
+    7400012: paw_13
+    7400014: skill_atk_0_13
+    7400016: skill_atk_1_13
+    7400018: skill_atk_2_13
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

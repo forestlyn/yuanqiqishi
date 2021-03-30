@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 00e9654837de1c94ea40b301e71b3352
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: b1
+    100002: b2
+    100004: body
+    100006: //RootNode
+    100008: boss07_tentacle
+    100010: boss07_tentacle 1
+    100012: boss07_tentacle 2
+    100014: boss07_tentacle 3
+    100016: collider
+    100018: dead_tap
+    100020: h1
+    100022: img
+    100024: p1
+    100026: p1 1
+    100028: p1 2
+    100030: p1 3
+    100032: p2
+    100034: p2 1
+    100036: p2 2
+    100038: p2 3
+    100040: p3
+    100042: p3 1
+    100044: p3 2
+    100046: p3 3
+    100048: p4
+    100050: p4 1
+    100052: p4 2
+    100054: p4 3
+    100056: p5
+    100058: p5 1
+    100060: p5 2
+    100062: p5 3
+    100064: shadow
+    100066: shadow_lock
+    100068: t1
+    100070: t2
+    100072: t3
+    100074: t4
+    400000: b1
+    400002: b2
+    400004: body
+    400006: //RootNode
+    400008: boss07_tentacle
+    400010: boss07_tentacle 1
+    400012: boss07_tentacle 2
+    400014: boss07_tentacle 3
+    400016: collider
+    400018: dead_tap
+    400020: h1
+    400022: img
+    400024: p1
+    400026: p1 1
+    400028: p1 2
+    400030: p1 3
+    400032: p2
+    400034: p2 1
+    400036: p2 2
+    400038: p2 3
+    400040: p3
+    400042: p3 1
+    400044: p3 2
+    400046: p3 3
+    400048: p4
+    400050: p4 1
+    400052: p4 2
+    400054: p4 3
+    400056: p5
+    400058: p5 1
+    400060: p5 2
+    400062: p5 3
+    400064: shadow
+    400066: shadow_lock
+    400068: t1
+    400070: t2
+    400072: t3
+    400074: t4
+    7400000: boss07_ide
+    7400002: boss07_atk1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

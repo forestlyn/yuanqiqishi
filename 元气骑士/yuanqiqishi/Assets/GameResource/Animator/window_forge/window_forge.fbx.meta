@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: e1a80327ccc911942b7a52d82f4ec396
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: accurate
+    100002: atk
+    100004: bg
+    100006: bg 1
+    100008: bg 2
+    100010: bg 3
+    100012: bg 4
+    100014: bg 5
+    100016: bg 6
+    100018: bg 7
+    100020: bg 8
+    100022: bg 9
+    100024: btn_back
+    100026: btn_confirm
+    100028: close_btn
+    100030: consume
+    100032: content
+    100034: critic
+    100036: detail_panel
+    100038: empty_text
+    100040: icon
+    100042: icon 1
+    100044: icon 10
+    100046: icon 11
+    100048: icon 12
+    100050: icon 2
+    100052: icon 3
+    100054: icon 4
+    100056: icon 5
+    100058: icon 6
+    100060: icon 7
+    100062: icon 8
+    100064: icon 9
+    100066: Image
+    100068: Image 1
+    100070: Image 2
+    100072: img_flag
+    100074: img_flag_need
+    100076: item_list
+    100078: item_proto
+    100080: mask
+    100082: materials
+    100084: panel
+    100086: proto
+    100088: review_panel
+    100090: tap_bow
+    100092: tap_gun
+    100094: tap_laser
+    100096: tap_pistol
+    100098: tap_rocket
+    100100: tap_shotgun
+    100102: tap_staff
+    100104: tap_strange
+    100106: tap_sword
+    100108: tap_throw
+    100110: taps
+    100112: Text
+    100114: Text 1
+    100116: Text 2
+    100118: Text 3
+    100120: text_name
+    100122: text_need
+    100124: tips
+    100126: title
+    100128: title 1
+    100130: title 2
+    100132: title 3
+    100134: viewport
+    100136: //RootNode
+    400000: accurate
+    400002: atk
+    400004: bg
+    400006: bg 1
+    400008: bg 2
+    400010: bg 3
+    400012: bg 4
+    400014: bg 5
+    400016: bg 6
+    400018: bg 7
+    400020: bg 8
+    400022: bg 9
+    400024: btn_back
+    400026: btn_confirm
+    400028: close_btn
+    400030: consume
+    400032: content
+    400034: critic
+    400036: detail_panel
+    400038: empty_text
+    400040: icon
+    400042: icon 1
+    400044: icon 10
+    400046: icon 11
+    400048: icon 12
+    400050: icon 2
+    400052: icon 3
+    400054: icon 4
+    400056: icon 5
+    400058: icon 6
+    400060: icon 7
+    400062: icon 8
+    400064: icon 9
+    400066: Image
+    400068: Image 1
+    400070: Image 2
+    400072: img_flag
+    400074: img_flag_need
+    400076: item_list
+    400078: item_proto
+    400080: mask
+    400082: materials
+    400084: panel
+    400086: proto
+    400088: review_panel
+    400090: tap_bow
+    400092: tap_gun
+    400094: tap_laser
+    400096: tap_pistol
+    400098: tap_rocket
+    400100: tap_shotgun
+    400102: tap_staff
+    400104: tap_strange
+    400106: tap_sword
+    400108: tap_throw
+    400110: taps
+    400112: Text
+    400114: Text 1
+    400116: Text 2
+    400118: Text 3
+    400120: text_name
+    400122: text_need
+    400124: tips
+    400126: title
+    400128: title 1
+    400130: title 2
+    400132: title 3
+    400134: viewport
+    400136: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

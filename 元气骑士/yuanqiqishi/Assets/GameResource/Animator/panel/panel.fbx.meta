@@ -1,0 +1,505 @@
+fileFormatVersion: 2
+guid: a2490688c6105c940a00aea3ca639785
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: amazing_stuff_button
+    100002: B
+    100004: Background
+    100006: Background 1
+    100008: Background 2
+    100010: Background 3
+    100012: base_grid
+    100014: base_grid 1
+    100016: bg
+    100018: box_color_button
+    100020: box_color_sub_panel
+    100022: box_gravity_button
+    100024: box_trap_button
+    100026: btn_anti_info
+    100028: btn_cancel
+    100030: btn_close
+    100032: btn_confirm
+    100034: btn_confirm 1
+    100036: button_bar_1
+    100038: button_bar_2
+    100040: button_bar_top
+    100042: button_map_0
+    100044: button_map_1
+    100046: button_map_2
+    100048: charactor_button
+    100050: close_button
+    100052: color_button
+    100054: color_button 1
+    100056: content
+    100058: content 1
+    100060: custom_color_button
+    100062: custom_color_button 1
+    100064: custom_color_panel
+    100066: desc
+    100068: desc 1
+    100070: desc 10
+    100072: desc 11
+    100074: desc 12
+    100076: desc 13
+    100078: desc 14
+    100080: desc 15
+    100082: desc 16
+    100084: desc 17
+    100086: desc 18
+    100088: desc 19
+    100090: desc 2
+    100092: desc 20
+    100094: desc 3
+    100096: desc 4
+    100098: desc 5
+    100100: desc 6
+    100102: desc 7
+    100104: desc 8
+    100106: desc 9
+    100108: dots
+    100110: empty_line_1
+    100112: empty_line_2
+    100114: export_button
+    100116: extra_grid
+    100118: extra_grid 1
+    100120: Fill
+    100122: Fill 1
+    100124: Fill 2
+    100126: Fill 3
+    100128: Fill Area
+    100130: Fill Area 1
+    100132: Fill Area 2
+    100134: Fill Area 3
+    100136: fly_toggle
+    100138: G
+    100140: global_button
+    100142: guild_panel
+    100144: guilds
+    100146: Handle
+    100148: Handle 1
+    100150: Handle 2
+    100152: Handle 3
+    100154: Handle Slide Area
+    100156: Handle Slide Area 1
+    100158: Handle Slide Area 2
+    100160: Handle Slide Area 3
+    100162: help_button
+    100164: icon
+    100166: icon 1
+    100168: icon 10
+    100170: icon 11
+    100172: icon 12
+    100174: icon 13
+    100176: icon 14
+    100178: icon 15
+    100180: icon 16
+    100182: icon 17
+    100184: icon 18
+    100186: icon 19
+    100188: icon 2
+    100190: icon 20
+    100192: icon 21
+    100194: icon 22
+    100196: icon 23
+    100198: icon 24
+    100200: icon 25
+    100202: icon 26
+    100204: icon 27
+    100206: icon 28
+    100208: icon 29
+    100210: icon 3
+    100212: icon 30
+    100214: icon 31
+    100216: icon 32
+    100218: icon 33
+    100220: icon 34
+    100222: icon 35
+    100224: icon 36
+    100226: icon 37
+    100228: icon 38
+    100230: icon 39
+    100232: icon 4
+    100234: icon 40
+    100236: icon 41
+    100238: icon 5
+    100240: icon 6
+    100242: icon 7
+    100244: icon 8
+    100246: icon 9
+    100248: icon_container
+    100250: icon_hide
+    100252: icon_show
+    100254: Image
+    100256: img
+    100258: img 1
+    100260: img 2
+    100262: import_button
+    100264: input_field
+    100266: input_field 1
+    100268: input_field 2
+    100270: item_box
+    100272: item_camera
+    100274: item_close
+    100276: item_dummy
+    100278: item_export
+    100280: item_floor
+    100282: item_fly
+    100284: item_global_setting
+    100286: item_gravity
+    100288: item_import
+    100290: item_magic_staff
+    100292: item_map_index
+    100294: item_play
+    100296: item_punch
+    100298: item_reset
+    100300: item_road_sign
+    100302: item_room
+    100304: item_save
+    100306: item_start_point
+    100308: item_trapbox
+    100310: item_wall
+    100312: key
+    100314: key 1
+    100316: key 2
+    100318: map_index_button
+    100320: map_index_sub_panel
+    100322: NotVerifyTag
+    100324: //RootNode
+    100326: panel
+    100328: panel 1
+    100330: panel 2
+    100332: play_button
+    100334: punch_button
+    100336: R
+    100338: reset_button
+    100340: room_button
+    100342: save_button
+    100344: show_button
+    100346: Slider
+    100348: slider
+    100350: slider 1
+    100352: slider 2
+    100354: start_point_button
+    100356: sub_panels
+    100358: telescope_button
+    100360: telescope_sub_panel
+    100362: text
+    100364: text 1
+    100366: text 10
+    100368: text 11
+    100370: text 12
+    100372: text 2
+    100374: text 3
+    100376: text 4
+    100378: text 5
+    100380: text 6
+    100382: text 7
+    100384: text 8
+    100386: text 9
+    100388: tile_button
+    100390: tile_button 1
+    100392: tiles_sub_panel
+    100394: TimeText
+    100396: title
+    100398: title 1
+    100400: top_bar_old
+    100402: value
+    100404: value 1
+    100406: value 2
+    100408: viewport
+    100410: wall_button
+    100412: wall_color_sub_panel
+    400000: amazing_stuff_button
+    400002: B
+    400004: Background
+    400006: Background 1
+    400008: Background 2
+    400010: Background 3
+    400012: base_grid
+    400014: base_grid 1
+    400016: bg
+    400018: box_color_button
+    400020: box_color_sub_panel
+    400022: box_gravity_button
+    400024: box_trap_button
+    400026: btn_anti_info
+    400028: btn_cancel
+    400030: btn_close
+    400032: btn_confirm
+    400034: btn_confirm 1
+    400036: button_bar_1
+    400038: button_bar_2
+    400040: button_bar_top
+    400042: button_map_0
+    400044: button_map_1
+    400046: button_map_2
+    400048: charactor_button
+    400050: close_button
+    400052: color_button
+    400054: color_button 1
+    400056: content
+    400058: content 1
+    400060: custom_color_button
+    400062: custom_color_button 1
+    400064: custom_color_panel
+    400066: desc
+    400068: desc 1
+    400070: desc 10
+    400072: desc 11
+    400074: desc 12
+    400076: desc 13
+    400078: desc 14
+    400080: desc 15
+    400082: desc 16
+    400084: desc 17
+    400086: desc 18
+    400088: desc 19
+    400090: desc 2
+    400092: desc 20
+    400094: desc 3
+    400096: desc 4
+    400098: desc 5
+    400100: desc 6
+    400102: desc 7
+    400104: desc 8
+    400106: desc 9
+    400108: dots
+    400110: empty_line_1
+    400112: empty_line_2
+    400114: export_button
+    400116: extra_grid
+    400118: extra_grid 1
+    400120: Fill
+    400122: Fill 1
+    400124: Fill 2
+    400126: Fill 3
+    400128: Fill Area
+    400130: Fill Area 1
+    400132: Fill Area 2
+    400134: Fill Area 3
+    400136: fly_toggle
+    400138: G
+    400140: global_button
+    400142: guild_panel
+    400144: guilds
+    400146: Handle
+    400148: Handle 1
+    400150: Handle 2
+    400152: Handle 3
+    400154: Handle Slide Area
+    400156: Handle Slide Area 1
+    400158: Handle Slide Area 2
+    400160: Handle Slide Area 3
+    400162: help_button
+    400164: icon
+    400166: icon 1
+    400168: icon 10
+    400170: icon 11
+    400172: icon 12
+    400174: icon 13
+    400176: icon 14
+    400178: icon 15
+    400180: icon 16
+    400182: icon 17
+    400184: icon 18
+    400186: icon 19
+    400188: icon 2
+    400190: icon 20
+    400192: icon 21
+    400194: icon 22
+    400196: icon 23
+    400198: icon 24
+    400200: icon 25
+    400202: icon 26
+    400204: icon 27
+    400206: icon 28
+    400208: icon 29
+    400210: icon 3
+    400212: icon 30
+    400214: icon 31
+    400216: icon 32
+    400218: icon 33
+    400220: icon 34
+    400222: icon 35
+    400224: icon 36
+    400226: icon 37
+    400228: icon 38
+    400230: icon 39
+    400232: icon 4
+    400234: icon 40
+    400236: icon 41
+    400238: icon 5
+    400240: icon 6
+    400242: icon 7
+    400244: icon 8
+    400246: icon 9
+    400248: icon_container
+    400250: icon_hide
+    400252: icon_show
+    400254: Image
+    400256: img
+    400258: img 1
+    400260: img 2
+    400262: import_button
+    400264: input_field
+    400266: input_field 1
+    400268: input_field 2
+    400270: item_box
+    400272: item_camera
+    400274: item_close
+    400276: item_dummy
+    400278: item_export
+    400280: item_floor
+    400282: item_fly
+    400284: item_global_setting
+    400286: item_gravity
+    400288: item_import
+    400290: item_magic_staff
+    400292: item_map_index
+    400294: item_play
+    400296: item_punch
+    400298: item_reset
+    400300: item_road_sign
+    400302: item_room
+    400304: item_save
+    400306: item_start_point
+    400308: item_trapbox
+    400310: item_wall
+    400312: key
+    400314: key 1
+    400316: key 2
+    400318: map_index_button
+    400320: map_index_sub_panel
+    400322: NotVerifyTag
+    400324: //RootNode
+    400326: panel
+    400328: panel 1
+    400330: panel 2
+    400332: play_button
+    400334: punch_button
+    400336: R
+    400338: reset_button
+    400340: room_button
+    400342: save_button
+    400344: show_button
+    400346: Slider
+    400348: slider
+    400350: slider 1
+    400352: slider 2
+    400354: start_point_button
+    400356: sub_panels
+    400358: telescope_button
+    400360: telescope_sub_panel
+    400362: text
+    400364: text 1
+    400366: text 10
+    400368: text 11
+    400370: text 12
+    400372: text 2
+    400374: text 3
+    400376: text 4
+    400378: text 5
+    400380: text 6
+    400382: text 7
+    400384: text 8
+    400386: text 9
+    400388: tile_button
+    400390: tile_button 1
+    400392: tiles_sub_panel
+    400394: TimeText
+    400396: title
+    400398: title 1
+    400400: top_bar_old
+    400402: value
+    400404: value 1
+    400406: value 2
+    400408: viewport
+    400410: wall_button
+    400412: wall_color_sub_panel
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

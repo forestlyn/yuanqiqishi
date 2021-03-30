@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: eff2d6b6bae784a4abf598882e2cb25a
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: author
+    100002: bg
+    100004: BIGb
+    100006: btn_back
+    100008: btn_back 1
+    100010: btn_close
+    100012: Carlemiz.
+    100014: 'chestnut_kliko '
+    100016: content
+    100018: content 1
+    100020: full_image
+    100022: Haru Hsiao
+    100024: Image
+    100026: image
+    100028: image 1
+    100030: image 2
+    100032: KEI
+    100034: Libbe
+    100036: LOK HEE
+    100038: mask
+    100040: Netsururu
+    100042: panel_1
+    100044: panel_2
+    100046: prikencio
+    100048: Rivendell
+    100050: Spark
+    100052: text
+    100054: viewport
+    100056: Void
+    100058: //RootNode
+    100060: "\u5154\u532A"
+    100062: "\u54C6\u5566\u6328\u51BB"
+    100064: "\u5BFC\u6F14-43"
+    100066: "\u5DF4\u624E\u9ED1"
+    100068: "\u5F20\u5C0F\u80D6"
+    100070: "\u6BBA\u5148\u68EE"
+    100072: "\u6E23\u6E23\u9ED1"
+    100074: "\u71D5\u4E0D\u731C"
+    400000: author
+    400002: bg
+    400004: BIGb
+    400006: btn_back
+    400008: btn_back 1
+    400010: btn_close
+    400012: Carlemiz.
+    400014: 'chestnut_kliko '
+    400016: content
+    400018: content 1
+    400020: full_image
+    400022: Haru Hsiao
+    400024: Image
+    400026: image
+    400028: image 1
+    400030: image 2
+    400032: KEI
+    400034: Libbe
+    400036: LOK HEE
+    400038: mask
+    400040: Netsururu
+    400042: panel_1
+    400044: panel_2
+    400046: prikencio
+    400048: Rivendell
+    400050: Spark
+    400052: text
+    400054: viewport
+    400056: Void
+    400058: //RootNode
+    400060: "\u5154\u532A"
+    400062: "\u54C6\u5566\u6328\u51BB"
+    400064: "\u5BFC\u6F14-43"
+    400066: "\u5DF4\u624E\u9ED1"
+    400068: "\u5F20\u5C0F\u80D6"
+    400070: "\u6BBA\u5148\u68EE"
+    400072: "\u6E23\u6E23\u9ED1"
+    400074: "\u71D5\u4E0D\u731C"
+    7400000: window_draw_zoom_out
+    7400002: window_draw_zoom_in
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

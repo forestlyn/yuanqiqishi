@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 024b6c514a4ab544c85b87a25dba2e29
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: bg
+    100002: bg 1
+    100004: bg 2
+    100006: bg 3
+    100008: bg 4
+    100010: bg 5
+    100012: btn_back
+    100014: btn_back 1
+    100016: btn_confirm
+    100018: btn_material
+    100020: btn_seed
+    100022: btn_token
+    100024: content
+    100026: empty
+    100028: icon
+    100030: icon 1
+    100032: icon 2
+    100034: icon 3
+    100036: Image
+    100038: Image 1
+    100040: Image 2
+    100042: img
+    100044: img 1
+    100046: img 2
+    100048: img 3
+    100050: img 4
+    100052: item_bg
+    100054: item_proto
+    100056: items_list
+    100058: number
+    100060: number 1
+    100062: number 2
+    100064: number 3
+    100066: number 4
+    100068: scroll_proto
+    100070: seed_proto
+    100072: tabs
+    100074: tape_proto
+    100076: text
+    100078: text 1
+    100080: text 2
+    100082: text 3
+    100084: text 4
+    100086: text_name
+    100088: ticket_group
+    100090: ticket_proto
+    100092: title
+    100094: viewport
+    100096: //RootNode
+    400000: bg
+    400002: bg 1
+    400004: bg 2
+    400006: bg 3
+    400008: bg 4
+    400010: bg 5
+    400012: btn_back
+    400014: btn_back 1
+    400016: btn_confirm
+    400018: btn_material
+    400020: btn_seed
+    400022: btn_token
+    400024: content
+    400026: empty
+    400028: icon
+    400030: icon 1
+    400032: icon 2
+    400034: icon 3
+    400036: Image
+    400038: Image 1
+    400040: Image 2
+    400042: img
+    400044: img 1
+    400046: img 2
+    400048: img 3
+    400050: img 4
+    400052: item_bg
+    400054: item_proto
+    400056: items_list
+    400058: number
+    400060: number 1
+    400062: number 2
+    400064: number 3
+    400066: number 4
+    400068: scroll_proto
+    400070: seed_proto
+    400072: tabs
+    400074: tape_proto
+    400076: text
+    400078: text 1
+    400080: text 2
+    400082: text 3
+    400084: text 4
+    400086: text_name
+    400088: ticket_group
+    400090: ticket_proto
+    400092: title
+    400094: viewport
+    400096: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

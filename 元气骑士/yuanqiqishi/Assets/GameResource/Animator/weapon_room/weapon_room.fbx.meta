@@ -1,0 +1,359 @@
+fileFormatVersion: 2
+guid: 8e37d24642e97b3448df2be7066946d8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: gun_point
+    100002: preview_box
+    100004: w
+    100006: w2
+    100008: w2 1
+    100010: w2 10
+    100012: w2 11
+    100014: w2 12
+    100016: w2 13
+    100018: w2 14
+    100020: w2 15
+    100022: w2 16
+    100024: w2 17
+    100026: w2 18
+    100028: w2 19
+    100030: w2 2
+    100032: w2 20
+    100034: w2 21
+    100036: w2 22
+    100038: w2 23
+    100040: w2 24
+    100042: w2 25
+    100044: w2 26
+    100046: w2 27
+    100048: w2 28
+    100050: w2 29
+    100052: w2 3
+    100054: w2 30
+    100056: w2 31
+    100058: w2 32
+    100060: w2 33
+    100062: w2 34
+    100064: w2 35
+    100066: w2 36
+    100068: w2 37
+    100070: w2 38
+    100072: w2 39
+    100074: w2 4
+    100076: w2 40
+    100078: w2 41
+    100080: w2 42
+    100082: w2 43
+    100084: w2 44
+    100086: w2 45
+    100088: w2 46
+    100090: w2 47
+    100092: w2 48
+    100094: w2 49
+    100096: w2 5
+    100098: w2 50
+    100100: w2 51
+    100102: w2 52
+    100104: w2 53
+    100106: w2 54
+    100108: w2 55
+    100110: w2 56
+    100112: w2 57
+    100114: w2 58
+    100116: w2 59
+    100118: w2 6
+    100120: w2 60
+    100122: w2 61
+    100124: w2 62
+    100126: w2 63
+    100128: w2 7
+    100130: w2 8
+    100132: w2 9
+    100134: wall
+    100136: wall (1)
+    100138: wall (10)
+    100140: wall (11)
+    100142: wall (12)
+    100144: wall (13)
+    100146: wall (14)
+    100148: wall (15)
+    100150: wall (16)
+    100152: wall (17)
+    100154: wall (18)
+    100156: wall (19)
+    100158: wall (2)
+    100160: wall (20)
+    100162: wall (21)
+    100164: wall (22)
+    100166: wall (23)
+    100168: wall (24)
+    100170: wall (25)
+    100172: wall (26)
+    100174: wall (27)
+    100176: wall (28)
+    100178: wall (29)
+    100180: wall (3)
+    100182: wall (30)
+    100184: wall (31)
+    100186: wall (32)
+    100188: wall (33)
+    100190: wall (34)
+    100192: wall (35)
+    100194: wall (36)
+    100196: wall (37)
+    100198: wall (38)
+    100200: wall (39)
+    100202: wall (4)
+    100204: wall (40)
+    100206: wall (41)
+    100208: wall (42)
+    100210: wall (43)
+    100212: wall (44)
+    100214: wall (45)
+    100216: wall (46)
+    100218: wall (47)
+    100220: wall (48)
+    100222: wall (49)
+    100224: wall (5)
+    100226: wall (50)
+    100228: wall (51)
+    100230: wall (52)
+    100232: wall (53)
+    100234: wall (54)
+    100236: wall (55)
+    100238: wall (56)
+    100240: wall (57)
+    100242: wall (58)
+    100244: wall (59)
+    100246: wall (6)
+    100248: wall (60)
+    100250: wall (61)
+    100252: wall (62)
+    100254: wall (63)
+    100256: wall (7)
+    100258: wall (8)
+    100260: wall (9)
+    100262: //RootNode
+    400000: gun_point
+    400002: preview_box
+    400004: w
+    400006: w2
+    400008: w2 1
+    400010: w2 10
+    400012: w2 11
+    400014: w2 12
+    400016: w2 13
+    400018: w2 14
+    400020: w2 15
+    400022: w2 16
+    400024: w2 17
+    400026: w2 18
+    400028: w2 19
+    400030: w2 2
+    400032: w2 20
+    400034: w2 21
+    400036: w2 22
+    400038: w2 23
+    400040: w2 24
+    400042: w2 25
+    400044: w2 26
+    400046: w2 27
+    400048: w2 28
+    400050: w2 29
+    400052: w2 3
+    400054: w2 30
+    400056: w2 31
+    400058: w2 32
+    400060: w2 33
+    400062: w2 34
+    400064: w2 35
+    400066: w2 36
+    400068: w2 37
+    400070: w2 38
+    400072: w2 39
+    400074: w2 4
+    400076: w2 40
+    400078: w2 41
+    400080: w2 42
+    400082: w2 43
+    400084: w2 44
+    400086: w2 45
+    400088: w2 46
+    400090: w2 47
+    400092: w2 48
+    400094: w2 49
+    400096: w2 5
+    400098: w2 50
+    400100: w2 51
+    400102: w2 52
+    400104: w2 53
+    400106: w2 54
+    400108: w2 55
+    400110: w2 56
+    400112: w2 57
+    400114: w2 58
+    400116: w2 59
+    400118: w2 6
+    400120: w2 60
+    400122: w2 61
+    400124: w2 62
+    400126: w2 63
+    400128: w2 7
+    400130: w2 8
+    400132: w2 9
+    400134: wall
+    400136: wall (1)
+    400138: wall (10)
+    400140: wall (11)
+    400142: wall (12)
+    400144: wall (13)
+    400146: wall (14)
+    400148: wall (15)
+    400150: wall (16)
+    400152: wall (17)
+    400154: wall (18)
+    400156: wall (19)
+    400158: wall (2)
+    400160: wall (20)
+    400162: wall (21)
+    400164: wall (22)
+    400166: wall (23)
+    400168: wall (24)
+    400170: wall (25)
+    400172: wall (26)
+    400174: wall (27)
+    400176: wall (28)
+    400178: wall (29)
+    400180: wall (3)
+    400182: wall (30)
+    400184: wall (31)
+    400186: wall (32)
+    400188: wall (33)
+    400190: wall (34)
+    400192: wall (35)
+    400194: wall (36)
+    400196: wall (37)
+    400198: wall (38)
+    400200: wall (39)
+    400202: wall (4)
+    400204: wall (40)
+    400206: wall (41)
+    400208: wall (42)
+    400210: wall (43)
+    400212: wall (44)
+    400214: wall (45)
+    400216: wall (46)
+    400218: wall (47)
+    400220: wall (48)
+    400222: wall (49)
+    400224: wall (5)
+    400226: wall (50)
+    400228: wall (51)
+    400230: wall (52)
+    400232: wall (53)
+    400234: wall (54)
+    400236: wall (55)
+    400238: wall (56)
+    400240: wall (57)
+    400242: wall (58)
+    400244: wall (59)
+    400246: wall (6)
+    400248: wall (60)
+    400250: wall (61)
+    400252: wall (62)
+    400254: wall (63)
+    400256: wall (7)
+    400258: wall (8)
+    400260: wall (9)
+    400262: //RootNode
+    7400000: w_pistol
+    7400002: w_ide
+    7400004: w_pistol_rotate
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

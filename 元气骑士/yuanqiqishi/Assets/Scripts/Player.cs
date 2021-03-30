@@ -5,12 +5,18 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //属性值
+    public float PlayerLifeValue = 10;
+    public float Shield = 6;
     public float moveSpeed = 3;
     public float timeVal;
    
     //引用
     public GameObject BulletPrefab;
     public Animator anim;
+
+    private static Player instance;
+
+    public static Player Instance { get => instance; set => instance = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -59,6 +65,13 @@ public class Player : MonoBehaviour
             // 角度
             m_bullet.transform.eulerAngles = new Vector3(0, 0, m_fireAngle + 90);
         }
+    }
+
+    public void Die()
+    {
+        PlayerLifeValue--;
+        if (PlayerLifeValue <= 0)
+            anim.SetBool("isDead", true);
     }
 
     //移动
