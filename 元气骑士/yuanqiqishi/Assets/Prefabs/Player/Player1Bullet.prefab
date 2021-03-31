@@ -145,3 +145,4 @@ MonoBehaviour:
   isPlayerBullet: 1
   BrokenBullet: {fileID: 1853180197711428259, guid: fc8182603fe6cb540a1ddb1ead8e67ec,
     type: 3}
+  Player: {fileID: 328626319113055536, guid: 2ade6819cd741434c914bf7c15dabfe6, type: 3}

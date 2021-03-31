@@ -94,9 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ff14f83397638342b31b90f0fce9f19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
-  timeVal: 0
-  lifeValue: 5
+  moveSpeed: 3
+  timeVal: 5
+  lifeValue: 0
   distance: 0
   player: {fileID: 0}
   EnemyBullet: {fileID: 7766339155361118576, guid: 34f674b022a785b45a86261e389998cb,

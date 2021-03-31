@@ -98,7 +98,6 @@ MonoBehaviour:
   isPlayerBullet: 0
   BrokenBullet: {fileID: 1271092453098531407, guid: 4c5c20bd58f2396448d561189f634b2c,
     type: 3}
-  Player: {fileID: 328626319113055536, guid: 2ade6819cd741434c914bf7c15dabfe6, type: 3}
 --- !u!61 &8385058564175521666
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -140,7 +139,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
