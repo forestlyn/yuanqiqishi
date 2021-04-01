@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BornEnemy
+  m_Name: Enemy1GunStill
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,11 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: 48d98795549f0db4db293766f59509d9, type: 3}
-    - time: 0.06666667
-      value: {fileID: 21300000, guid: 2056bf0de3dad004395ef3d0c76f7330, type: 3}
-    - time: 0.15
-      value: {fileID: 21300000, guid: 0c252d50279c41e44b7d3e693a4e7912, type: 3}
+      value: {fileID: 21300000, guid: 3f1a45a7fe17c774a83c12d5569acb92, type: 3}
+    - time: 0.18333334
+      value: {fileID: 21300000, guid: f553a8e79c97ee940bb755d82d578ead, type: 3}
+    - time: 0.36666667
+      value: {fileID: 21300000, guid: 6c4900a4b56f64d44bcfb29e561c09c1, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,15 +44,15 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: 48d98795549f0db4db293766f59509d9, type: 3}
-    - {fileID: 21300000, guid: 2056bf0de3dad004395ef3d0c76f7330, type: 3}
-    - {fileID: 21300000, guid: 0c252d50279c41e44b7d3e693a4e7912, type: 3}
+    - {fileID: 21300000, guid: 3f1a45a7fe17c774a83c12d5569acb92, type: 3}
+    - {fileID: 21300000, guid: f553a8e79c97ee940bb755d82d578ead, type: 3}
+    - {fileID: 21300000, guid: 6c4900a4b56f64d44bcfb29e561c09c1, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.16666667
+    m_StopTime: 0.38333336
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

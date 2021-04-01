@@ -8,6 +8,7 @@ public class Bullet : MonoBehaviour
     //属性
     public float moveSpeed = 4;
     public bool isPlayerBullet;
+    public bool isEnemy1Bullet;
     public Vector3 a;
     
     //引用
@@ -25,12 +26,14 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        
-        if (!isPlayerBullet)
+        if (!isPlayerBullet && isEnemy1Bullet)
         {
             transform.Translate(a * 4 * Time.fixedDeltaTime, Space.World);
         }
-        
+        if (!(isPlayerBullet && isEnemy1Bullet))
+        {
+
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

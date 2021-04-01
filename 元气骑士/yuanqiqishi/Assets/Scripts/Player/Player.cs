@@ -7,8 +7,9 @@ public class Player : MonoBehaviour
     //属性值
     public float PlayerLifeValue = 10;
     public float Shield = 6;
-    public float moveSpeed = 3;
+    public float moveSpeed = 5;
     public float timeVal;
+    public float playerATK;
    
     //引用
     public GameObject BulletPrefab;
@@ -18,13 +19,12 @@ public class Player : MonoBehaviour
 
     public static Player Instance { get => instance; set => instance = value; }
 
-    // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+  
     void Update()
     {
        
@@ -33,10 +33,7 @@ public class Player : MonoBehaviour
     {
         timeVal += Time.fixedDeltaTime;
         Move();
-        GunAttack();
-        
-        
-        
+        GunAttack();       
     }
     
     //攻击
@@ -69,9 +66,22 @@ public class Player : MonoBehaviour
 
     public void Die()
     {
-        PlayerLifeValue--;
+        if (Shield > 0)
+        {
+            Shield--;
+            PlayerManager.Instance.Shield = Shield;
+        }
+        else
+        {
+            PlayerLifeValue--;
+            PlayerManager.Instance.lifeValue = PlayerLifeValue;
+        }
         if (PlayerLifeValue <= 0)
+        {
             anim.SetBool("isDead", true);
+            PlayerManager.Instance.isDefeat = true;
+        }
+            
     }
 
     //移动
@@ -95,5 +105,4 @@ public class Player : MonoBehaviour
     {
         transform.Translate(Vector3.up * v * moveSpeed * Time.fixedDeltaTime, Space.World);
     }
-
 }

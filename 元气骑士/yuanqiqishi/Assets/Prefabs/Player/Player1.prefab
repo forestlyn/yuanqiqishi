@@ -96,9 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6106cf8574ddc4ca7e2b153cea3a31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerLifeValue: 1
+  PlayerLifeValue: 6
   Shield: 6
-  moveSpeed: 3
+  moveSpeed: 5
   timeVal: 0
   BulletPrefab: {fileID: 1928201187633698959, guid: 58b2880e747087642a9e5bf120d257b3,
     type: 3}
@@ -127,7 +127,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.34, y: 0.28}
+  m_Size: {x: 0.3, y: 0.3}
   m_EdgeRadius: 0
 --- !u!50 &328626319113055537
 Rigidbody2D:

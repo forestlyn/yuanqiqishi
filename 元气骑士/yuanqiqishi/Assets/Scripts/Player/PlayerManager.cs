@@ -6,15 +6,16 @@ using UnityEngine.UI;
 public class PlayerManager : MonoBehaviour
 {
     //属性值
-    public int lifeValue = 3;
+    public float lifeValue;
+    public float Shield;
     public int playerScore = 0;
-    public bool isDead;
     public bool isDefeat;
 
     //引用
     public GameObject Born;
     public Text textPlayerScore;
     public Text textPlayerLifeValue;
+    public Text textPlayerShieldValue;
 
     //单例
     private static PlayerManager instance;
@@ -34,25 +35,12 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isDead)
-        {
-            Recover();
-        }
+        
 
     }
 
     private void Recover()
     {
-        if (lifeValue <= 0)
-        {
 
-        }
-        else
-        {
-            lifeValue--;
-            GameObject go = Instantiate(Born, new Vector3(-2, -8, 0), Quaternion.identity);
-            go.GetComponent<Born>().isCreatePlayer = true;
-            isDead = false;
-        }
     }
 }

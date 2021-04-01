@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1787535550901613977}
   - component: {fileID: 1787535550901613976}
-  - component: {fileID: 1787535550901613979}
   - component: {fileID: 1787535550901613978}
   - component: {fileID: 1618006424}
+  - component: {fileID: 1838899083}
+  - component: {fileID: 3588570105623489235}
   m_Layer: 0
   m_Name: Enemy3pig
   m_TagString: Enemy
@@ -82,25 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1787535550901613979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787535550901613983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ff14f83397638342b31b90f0fce9f19, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  timeVal: 5
-  lifeValue: 0
-  distance: 0
-  player: {fileID: 0}
-  EnemyBullet: {fileID: 7766339155361118576, guid: 34f674b022a785b45a86261e389998cb,
-    type: 3}
 --- !u!61 &1787535550901613978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -111,7 +93,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -148,3 +130,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &1838899083
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787535550901613983}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: addb7d44f2a28d9499bff769574a9ea9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3588570105623489235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787535550901613983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b71fd1eb2a3ad479742f1739255d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 0
+  timeVal: 5
+  AttackTime: 0
+  lifeValue: 0
+  distance: 0
+  player: {fileID: 0}
+  anim: {fileID: 1838899083}
