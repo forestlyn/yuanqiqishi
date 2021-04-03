@@ -101,8 +101,6 @@ public class Enemy : MonoBehaviour
         if (timeVal >= AttackTime && lifeValue > 0)
         {
             Instantiate(EnemyBullet, transform.position, transform.rotation);
-            Instantiate(EnemyBullet, transform.position, transform.rotation);
-            Instantiate(EnemyBullet, transform.position, transform.rotation);
             timeVal = 0;
         }            
     }

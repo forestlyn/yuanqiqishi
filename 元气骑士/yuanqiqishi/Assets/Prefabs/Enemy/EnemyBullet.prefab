@@ -96,8 +96,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 4
   isPlayerBullet: 0
+  isEnemy1Bullet: 1
+  a: {x: 0, y: 0, z: 0}
   BrokenBullet: {fileID: 1271092453098531407, guid: 4c5c20bd58f2396448d561189f634b2c,
     type: 3}
+  Player: {fileID: 0}
 --- !u!61 &8385058564175521666
 BoxCollider2D:
   m_ObjectHideFlags: 0

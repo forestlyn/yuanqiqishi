@@ -48,9 +48,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerPrefab: {fileID: 0}
   EnemyPrefabList:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8715807153705456377, guid: 572edce83202c1d409217afb3a7e2381, type: 3}
+  - {fileID: 1166405751691410723, guid: c07cbe9642c4c0545ae5d6e03fc11b5a, type: 3}
+  - {fileID: 1787535550901613983, guid: 71c878ad6b83fa0478587290c8e16114, type: 3}
   isCreatePlayer: 0
 --- !u!95 &6055635230350796671
 Animator:
