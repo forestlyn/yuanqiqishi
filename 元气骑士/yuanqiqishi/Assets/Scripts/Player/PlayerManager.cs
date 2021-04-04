@@ -39,8 +39,5 @@ public class PlayerManager : MonoBehaviour
 
     }
 
-    private void Recover()
-    {
-
-    }
+    
 }

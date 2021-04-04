@@ -7,17 +7,24 @@ public class Player : MonoBehaviour
     //属性值
     public float PlayerLifeValue = 10;
     public float Shield = 6;
-    public float moveSpeed = 5;
-    
+    public float moveSpeed = 5;   
     public float playerATK;
+    public float SkillTimeVal = 20;
+    public bool IsSkilling;
+
    
     //引用
     public GameObject BulletPrefab;
+    public GameObject SkillPrefab;
     public Animator anim;
 
     private static Player instance;
 
     public static Player Instance { get => instance; set => instance = value; }
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -25,18 +32,14 @@ public class Player : MonoBehaviour
     }
 
   
-    void Update()
-    {
-       
-    }
     private void FixedUpdate()
     {
-        Move();     
+        SkillTimeVal += Time.fixedDeltaTime;
+        Skill();
+        Move();
     }
     
-    //攻击
     
-
     public void Die()
     {
         if (Shield > 0)
@@ -53,8 +56,7 @@ public class Player : MonoBehaviour
         {
             anim.SetBool("isDead", true);
             PlayerManager.Instance.isDefeat = true;
-        }
-            
+        }         
     }
 
     //移动
@@ -68,7 +70,7 @@ public class Player : MonoBehaviour
     }
     private void Moveh(float h)
     {
-        transform.Translate(Vector3.right * h * moveSpeed * Time.fixedDeltaTime, Space.World);
+        transform.Translate(Vector3.right * h * 5 * Time.fixedDeltaTime, Space.World);
         if (h < 0)
             transform.eulerAngles = new Vector3(0, 180, 0);
         else if (h > 0)
@@ -77,5 +79,15 @@ public class Player : MonoBehaviour
     private void Movev(float v)
     {
         transform.Translate(Vector3.up * v * moveSpeed * Time.fixedDeltaTime, Space.World);
+    }
+
+    //技能
+    public void Skill()
+    {
+        if (IsSkilling)
+        {
+            Instantiate(SkillPrefab, transform.position, transform.rotation);
+            IsSkilling = false;
+        }
     }
 }

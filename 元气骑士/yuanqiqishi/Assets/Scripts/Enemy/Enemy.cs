@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour
     public float distance;
 
     //引用
-    public Transform player;
+    private Transform player;
     public GameObject EnemyBullet;
     public Animator anim;
     
@@ -44,7 +44,7 @@ public class Enemy : MonoBehaviour
     }
     public void Die()
     {
-        lifeValue -= 3;
+        lifeValue -= Player.Instance.playerATK;
         if (lifeValue <= 0)
         {
             anim.SetBool("isDead", true);
@@ -100,7 +100,10 @@ public class Enemy : MonoBehaviour
     {
         if (timeVal >= AttackTime && lifeValue > 0)
         {
+            Vector3 offset = new Vector3(1, 1, 0);
+            Instantiate(EnemyBullet, transform.position + offset, transform.rotation);
             Instantiate(EnemyBullet, transform.position, transform.rotation);
+            Instantiate(EnemyBullet, transform.position - offset, transform.rotation);
             timeVal = 0;
         }            
     }

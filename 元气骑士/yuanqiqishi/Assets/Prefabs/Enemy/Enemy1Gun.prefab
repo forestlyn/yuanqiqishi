@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 43390939}
   - component: {fileID: 43390940}
   m_Layer: 0
-  m_Name: weapons3_14
+  m_Name: weaponEnemyGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,7 +207,6 @@ MonoBehaviour:
   lifeValue: 6
   isEnemy1: 1
   distance: 0
-  player: {fileID: 0}
   EnemyBullet: {fileID: 7766339155361118576, guid: 34f674b022a785b45a86261e389998cb,
     type: 3}
   anim: {fileID: 975424568}

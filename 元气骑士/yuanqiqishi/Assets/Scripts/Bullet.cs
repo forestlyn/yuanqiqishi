@@ -6,14 +6,13 @@ using UnityEngine.AI;
 public class Bullet : MonoBehaviour
 {
     //属性
-    public float moveSpeed = 4;
+    public float moveSpeed;
     public bool isPlayerBullet;
-    public bool isEnemy1Bullet;
     public Vector3 a;
     
     //引用
     public GameObject BrokenBullet;
-    public Transform Player;
+    private Transform Player;
     
 
     void Start()
@@ -26,14 +25,11 @@ public class Bullet : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (!isPlayerBullet && isEnemy1Bullet)
+        if (!isPlayerBullet)
         {
-            transform.Translate(a * 4 * Time.fixedDeltaTime, Space.World);
+            transform.Translate(a * moveSpeed * Time.fixedDeltaTime, Space.World);
         }
-        if (!(isPlayerBullet && isEnemy1Bullet))
-        {
-
-        }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
