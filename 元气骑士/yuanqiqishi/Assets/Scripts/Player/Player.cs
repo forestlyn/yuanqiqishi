@@ -7,7 +7,7 @@ public class Player : MonoBehaviour
     //属性值
     public float PlayerLifeValue = 10;
     public float Shield = 6;
-    public float moveSpeed = 5;   
+    private float moveSpeed = 5;   
     public float playerATK;
     public float SkillTimeVal = 20;
     public bool IsSkilling;
@@ -64,13 +64,13 @@ public class Player : MonoBehaviour
     {
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
-        anim.SetFloat("running", Mathf.Abs(h + v));
+        anim.SetFloat("running", Mathf.Abs(h) + Mathf.Abs(v));
         Moveh(h);
         Movev(v);
     }
     private void Moveh(float h)
     {
-        transform.Translate(Vector3.right * h * 5 * Time.fixedDeltaTime, Space.World);
+        transform.Translate(Vector3.right * h * moveSpeed * Time.fixedDeltaTime, Space.World);
         if (h < 0)
             transform.eulerAngles = new Vector3(0, 180, 0);
         else if (h > 0)
