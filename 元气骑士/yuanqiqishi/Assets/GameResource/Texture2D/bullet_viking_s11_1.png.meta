@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: ce74377df72155042979a35b8e8dde58
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: bullet_viking_s11_1_0
+    21300002: bullet_viking_s11_1_1
+    21300004: bullet_viking_s11_1_2
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -40,17 +43,17 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 76, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -69,10 +72,105 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
-    outline: []
+    sprites:
+    - serializedVersion: 2
+      name: bullet_viking_s11_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2ac47e309f38b4095dbb9a17cdc0be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_viking_s11_1_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a7ac35623507f43a892ebd43c3c507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet_viking_s11_1_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d85570bcf487e4aa9d9438fa06a5e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 34.653442, y: 5.390383}
+      - {x: 29.73069, y: 19}
+      - {x: 18, y: -4}
+      - {x: 18, y: -16}
+      - {x: 21, y: -19}
+      - {x: 39, y: -19}
+      - {x: 43, y: -15}
+      - {x: 43, y: -8}
+      - {x: 50.169144, y: 12.428064}
+    - - {x: 8, y: 15}
+      - {x: -13, y: 15}
+      - {x: -15, y: 9}
+      - {x: -15, y: -19}
+      - {x: 13, y: -19}
+      - {x: 15, y: -17}
+      - {x: 15, y: 2}
+      - {x: 11, y: 13}
+    - - {x: -54, y: 19}
+      - {x: -57, y: 17}
+      - {x: -57, y: -5}
+      - {x: -42, y: -16}
+      - {x: -21, y: -16}
+      - {x: -21, y: 16}
+      - {x: -27, y: 19}
     physicsShape: []
     bones: []
     spriteID: a96bc248d3e67454f8e48d4c2153d144

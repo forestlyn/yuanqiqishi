@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     public float playerATK;
     public float SkillTimeVal = 20;
     public bool IsSkilling;
-
+    public float RecoverTime;
    
     //引用
     public GameObject BulletPrefab;
@@ -39,6 +39,8 @@ public class Player : MonoBehaviour
     {
         if (!PlayerManager.Instance.isDefeat)
         {
+            RecoverShield();
+            RecoverTime += Time.fixedDeltaTime;
             SkillTimeVal += Time.fixedDeltaTime;
             Skill();
             Move();
@@ -48,6 +50,7 @@ public class Player : MonoBehaviour
     
     public void Die()
     {
+        RecoverTime = 0;
         if (Shield > 0)
         {
             Shield--;
@@ -94,6 +97,17 @@ public class Player : MonoBehaviour
         {
             Instantiate(SkillPrefab, transform.position, transform.rotation);
             IsSkilling = false;
+        }
+    }
+
+    //脱战回盾
+    public void RecoverShield()
+    {
+        if (RecoverTime > 10 && Shield < 3)
+        {
+            Shield++;
+            PlayerManager.Instance.Shield = Shield;
+            RecoverTime = 0;
         }
     }
 }

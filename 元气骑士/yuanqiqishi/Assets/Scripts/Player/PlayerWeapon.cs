@@ -12,6 +12,7 @@ public class PlayerWeapon : MonoBehaviour
     private float SkilltimeContinue;
     public bool isskill;
 
+
     //引用
     public GameObject BulletPrefab;
     private Transform player;
@@ -25,6 +26,8 @@ public class PlayerWeapon : MonoBehaviour
     {
         if (!PlayerManager.Instance.isDefeat)
         {
+            
+            
             if (Input.GetMouseButtonDown(1) && SkillTimeVal >= 20f)
             {
                 isskill = true;
@@ -64,7 +67,7 @@ public class PlayerWeapon : MonoBehaviour
 
             // 计时器归零
             timeVal = 0;
-
+            
             // 生成子弹
             PlayerManager.Instance.Bullet -= 10;
             GameObject m_bullet = Instantiate(BulletPrefab, transform.position, Quaternion.identity) as GameObject;
@@ -112,7 +115,7 @@ public class PlayerWeapon : MonoBehaviour
 
             // 计时器归零
             timeVal = 0;
-
+            
             // 生成子弹
             GameObject m_bullet1 = Instantiate(BulletPrefab, transform.position + new Vector3(0.1f, 0.1f, 0), Quaternion.identity) as GameObject;
             GameObject m_bullet2 = Instantiate(BulletPrefab, transform.position + new Vector3(-0.1f, -0.1f, 0), Quaternion.identity) as GameObject;
@@ -125,4 +128,6 @@ public class PlayerWeapon : MonoBehaviour
             transform.eulerAngles = new Vector3(0, 0, m_fireAngle);
         }
     }
+
+    
 }
