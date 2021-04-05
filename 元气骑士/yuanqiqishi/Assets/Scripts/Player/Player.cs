@@ -5,8 +5,9 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     //属性值
-    public float PlayerLifeValue = 10;
-    public float Shield = 6;
+    public float PlayerLifeValue;
+    public float Shield;
+    public float Bullet;
     private float moveSpeed = 5;   
     public float playerATK;
     public float SkillTimeVal = 20;
@@ -23,20 +24,25 @@ public class Player : MonoBehaviour
     public static Player Instance { get => instance; set => instance = value; }
     private void Awake()
     {
-        instance = this;
+        Instance = this;
     }
 
     void Start()
     {
-        
+        PlayerManager.Instance.Shield = Shield;
+        PlayerManager.Instance.LifeValue = PlayerLifeValue;
+        PlayerManager.Instance.Bullet = Bullet;
     }
 
   
     private void FixedUpdate()
     {
-        SkillTimeVal += Time.fixedDeltaTime;
-        Skill();
-        Move();
+        if (!PlayerManager.Instance.isDefeat)
+        {
+            SkillTimeVal += Time.fixedDeltaTime;
+            Skill();
+            Move();
+        }
     }
     
     
@@ -50,7 +56,7 @@ public class Player : MonoBehaviour
         else
         {
             PlayerLifeValue--;
-            PlayerManager.Instance.lifeValue = PlayerLifeValue;
+            PlayerManager.Instance.LifeValue = PlayerLifeValue;
         }
         if (PlayerLifeValue <= 0)
         {

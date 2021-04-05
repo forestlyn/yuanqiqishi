@@ -23,26 +23,30 @@ public class PlayerWeapon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(1) && SkillTimeVal >= 20f)
+        if (!PlayerManager.Instance.isDefeat)
         {
-            isskill = true;
-            Player.Instance.IsSkilling = true;
+            if (Input.GetMouseButtonDown(1) && SkillTimeVal >= 20f)
+            {
+                isskill = true;
+                Player.Instance.IsSkilling = true;
+            }
+            if (isskill)
+            {
+                SkilltimeContinue += Time.deltaTime;
+            }
+            player = GameObject.FindGameObjectWithTag("Player").transform;
+            timeVal += Time.deltaTime;
+            SkillTimeVal += Time.deltaTime;
+            if (!isskill && PlayerManager.Instance.Bullet >= 3) GunAttack();
+            Skill();
+            PlayerManager.Instance.Skill = SkillTimeVal > 20 ? 20 : SkillTimeVal;
         }
-        if (isskill)
-        {
-            SkilltimeContinue += Time.deltaTime;
-        }
-        player = GameObject.FindGameObjectWithTag("Player").transform;
-        timeVal += Time.deltaTime;
-        SkillTimeVal += Time.deltaTime;
-        if (!isskill) GunAttack();
-        Skill();
     }
 
     //攻击
     private void GunAttack()
     {
-        if (Input.GetMouseButton(0) && timeVal > 0.2f )
+        if (Input.GetMouseButtonDown(0) && timeVal > 0.1f )
         {
             // 获取鼠标坐标并转换成世界坐标
             m_mousePosition = Input.mousePosition;
@@ -62,6 +66,7 @@ public class PlayerWeapon : MonoBehaviour
             timeVal = 0;
 
             // 生成子弹
+            PlayerManager.Instance.Bullet -= 10;
             GameObject m_bullet = Instantiate(BulletPrefab, transform.position, Quaternion.identity) as GameObject;
 
             // 速度

@@ -8,6 +8,10 @@ TagManager:
   - Bullet
   - Box
   - Barrier
+  - HealthBar
+  - ShieldBar
+  - BulletBar
+  - SkillBar
   layers:
   - Default
   - TransparentFX

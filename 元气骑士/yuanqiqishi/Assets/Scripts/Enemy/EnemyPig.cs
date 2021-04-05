@@ -29,11 +29,14 @@ public class EnemyPig : MonoBehaviour
 
     void FixedUpdate()
     {
-        distance = Vector3.Distance(transform.position, player.position);
-        if (distance >= 8) Move();
-        FindPlayer();
-        timeVal += Time.fixedDeltaTime;
-
+        if (!PlayerManager.Instance.isDefeat)
+        {
+            distance = Vector3.Distance(transform.position, player.position);
+            if (distance >= 8 && lifeValue > 0) Move();
+            if (lifeValue > 0) FindPlayer();
+            timeVal += Time.fixedDeltaTime;
+        }
+       
     }
 
 
@@ -44,6 +47,7 @@ public class EnemyPig : MonoBehaviour
         {
             anim.SetBool("isDead", true);
             Destroy(gameObject, 1f);
+            PlayerManager.Instance.Bullet = (10 + PlayerManager.Instance.Bullet) > 180 ? 180 : (10 + PlayerManager.Instance.Bullet);
         }
     }
 
@@ -89,7 +93,7 @@ public class EnemyPig : MonoBehaviour
     }
 
     //攻击
-    private void OnCollisionEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         switch (collision.tag)
         {

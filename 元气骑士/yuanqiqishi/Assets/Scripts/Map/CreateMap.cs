@@ -4,9 +4,24 @@ using UnityEngine;
 
 public class CreateMap : MonoBehaviour
 {
+    public float TimeVal;
     //0.born 1.Enemy1Gun 2.Enemy2Magic 3.Enemy3Pig 4.Box 5.Barrier 6.Wall 
     public GameObject[] item;
     private List<Vector3> itemPosition = new List<Vector3>();
+
+    public void Update()
+    {
+        TimeVal += Time.deltaTime;
+        if (TimeVal >= 5)
+        {
+            if (!PlayerManager.Instance.isDefeat)
+            {
+                CreateEnemy();
+                TimeVal = 0;
+            }
+        }
+    }
+
     private void Awake()
     {
         //实例化墙
@@ -46,17 +61,16 @@ public class CreateMap : MonoBehaviour
         CreateWall(16, 23, 17, false);
         CreateWall(-7, 1, 15, true);
         CreateWall(16, 28, -7, false);
-       
+
+        CreateItemGameObject(item[4], new Vector3(17, 30, 0), Quaternion.identity);
+        CreateItemGameObject(item[5], new Vector3(17, 26, 0), Quaternion.identity);
         
-        
-       
-        
+                
         //实例化敌人
         CreateItemGameObject(item[1], new Vector3(26,6, 0), Quaternion.identity);
         CreateItemGameObject(item[2], new Vector3(26, 8, 0), Quaternion.identity);
         CreateItemGameObject(item[3], new Vector3(26, 10, 0), Quaternion.identity);
 
-        InvokeRepeating("CreateEnemy", 4, 5);
         
 
     }
