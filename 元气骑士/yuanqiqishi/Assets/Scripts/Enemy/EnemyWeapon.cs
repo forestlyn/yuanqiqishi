@@ -6,7 +6,6 @@ public class EnemyWeapon : MonoBehaviour
 {
     //引用
     public Transform player;
-
     
     void Start()
     {
