@@ -46,8 +46,8 @@ MonoBehaviour:
   Skill: 0
   isDefeat: 0
   LifeValue: 6
-  Shield: 5
-  Bullet: 0
+  Shield: 3
+  Bullet: 180
   textPlayerBullet: {fileID: 0}
   textPlayerLifeValue: {fileID: 0}
   textPlayerShieldValue: {fileID: 0}

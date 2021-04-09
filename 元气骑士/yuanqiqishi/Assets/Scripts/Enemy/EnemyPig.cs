@@ -34,7 +34,6 @@ public class EnemyPig : MonoBehaviour
             distance = Vector3.Distance(transform.position, player.position);
             if (distance >= 8 && lifeValue > 0) Move();
             if (lifeValue > 0) FindPlayer();
-            timeVal += Time.fixedDeltaTime;
         }
        
     }
@@ -76,6 +75,7 @@ public class EnemyPig : MonoBehaviour
     //发现玩家
     private void FindPlayer()
     {
+        timeVal += Time.deltaTime;
         Vector3 a = player.transform.position - transform.position;
         if (distance < 8)
         {

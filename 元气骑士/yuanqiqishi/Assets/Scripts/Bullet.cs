@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     //属性
     public float moveSpeed;
     public bool isPlayerBullet;
-    public Vector3 a;
+    public Vector3 offset;
     
     //引用
     public GameObject BrokenBullet;
@@ -18,7 +18,7 @@ public class Bullet : MonoBehaviour
     void Start()
     {
         Player = GameObject.FindGameObjectWithTag("Player").transform;
-        a = Player.position - transform.position;
+        offset = Player.position - transform.position;
         Destroy(gameObject, 5);
     }
 
@@ -27,7 +27,7 @@ public class Bullet : MonoBehaviour
     {
         if (!isPlayerBullet)
         {
-            transform.Translate(a * moveSpeed * Time.fixedDeltaTime, Space.World);
+            transform.Translate(offset * moveSpeed * Time.fixedDeltaTime, Space.World);
         }
         
     }

@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 3
   timeVal: 5
-  AttackTime: 0
+  AttackTime: 2
   lifeValue: 3
   distance: 0
   player: {fileID: 0}

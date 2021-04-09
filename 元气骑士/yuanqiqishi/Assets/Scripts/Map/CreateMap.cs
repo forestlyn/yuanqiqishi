@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class CreateMap : MonoBehaviour
@@ -25,42 +26,22 @@ public class CreateMap : MonoBehaviour
     private void Awake()
     {
         //实例化墙
-        CreateWall(-7, 7, 7, false);
-        CreateWall(-7, 7, -7, false);
-        CreateWall(-7, 2, -7, true);
-        CreateWall(-7, 2, 7, true);
-        CreateWall(5, 7, -7, true);
-        CreateWall(5, 7, 7, true);
-        CreateWall(-15, -8, 5, false);
-        CreateWall(-15, -8, 2, false);
-        CreateWall(8, 15, 5, false);
-        CreateWall(8, 15, 2, false);
-        CreateWall(-6, 2, -15, true);
-        CreateWall(-6, 2, -30, true);
-        CreateWall(6, 10, -15, true);
-        CreateWall(3, 10, -30, true);
-        CreateWall(-29, -15, -6, false);
-        CreateWall(-30, -20, 11, false);
-        CreateWall(11, 22, -15, true);
-        CreateWall(11, 22, -19, true);
-        CreateWall(-15, -5, 23, false);
-        CreateWall(-25, -19, 23, false);
-        CreateWall(24, 34, -5, true);
-        CreateWall(24, 37, -25, true);
-        CreateWall(-25, 8, 38, false);
-        CreateWall(-4, 8, 34, false);
-        CreateWall(25, 34, 9, true);
-        CreateWall(38, 45, 9, true);
-        CreateWall(10, 23, 25, false);
-        CreateWall(10, 35, 45, false);
-        CreateWall(17, 25, 24, true);
-        CreateWall(25, 45, 35, true);
-        CreateWall(30, 34, 25, false);
-        CreateWall(-7, 25, 29, true);
-        CreateWall(6, 17, 15, true);
-        CreateWall(16, 23, 17, false);
-        CreateWall(-7, 1, 15, true);
-        CreateWall(16, 28, -7, false);
+        FileStream file = new FileStream("CreateWall.txt", FileMode.Open, FileAccess.Read);
+        StreamReader files = new StreamReader(file);
+
+        for (int i = 0; i < 36; i++)
+        {
+            int a, b, c, d;
+            string line;
+            line = files.ReadLine();
+            string[] lines = line.Split(new char[] { ' ' }, System.StringSplitOptions.RemoveEmptyEntries);
+            a = int.Parse(lines[0]);
+            b = int.Parse(lines[1]);
+            c = int.Parse(lines[2]);
+            d = int.Parse(lines[3]);
+            CreateWall(a, b, c, d);          
+        }
+        System.Console.ReadLine();
 
         CreateItemGameObject(item[4], new Vector3(17, 30, 0), Quaternion.identity);
         CreateItemGameObject(item[5], new Vector3(17, 26, 0), Quaternion.identity);
@@ -75,9 +56,9 @@ public class CreateMap : MonoBehaviour
 
     }
 
-    private void CreateWall(int i, int j, int n,bool up)
+    private void CreateWall(int i, int j, int n,int up)
     {
-        if (up)
+        if (up == 1)
         {
             for (; i <= j; i++)
             {

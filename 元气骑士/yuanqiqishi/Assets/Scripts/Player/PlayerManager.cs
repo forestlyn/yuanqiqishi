@@ -27,6 +27,9 @@ public class PlayerManager : MonoBehaviour
 
     public static PlayerManager Instance { get => instance; set => instance = value; }
 
+    internal delegate void MyDelegate(float num, float maxnum, string tag, GameObject name);
+    MyDelegate myDelegate;
+
     private void Awake()
     {
         Instance = this;
@@ -45,28 +48,30 @@ public class PlayerManager : MonoBehaviour
             SceneManager.LoadScene(0);
             return;
         }
+
+        myDelegate = SetBar;
+        myDelegate(LifeValue, Player.Instance.MaxPlayerLifeValue, "HealthBar", HealthBar);
+        myDelegate(Shield, Player.Instance.MaxShield, "ShieldBar", ShieldBar);
+        myDelegate(Bullet, Player.Instance.MaxBullet, "BulletBar", BulletBar);
+        myDelegate(Skill, Player.Instance.MaxSkillTimeVal, "SkillBar", SkillBar);
+
         SetText();
-        SetBar();
     }
 
     //UI
-    private void SetBar()
+    private void SetBar(float num,float maxnum, string tag,GameObject Bar)
     {
-        HealthBar = GameObject.FindGameObjectWithTag("HealthBar");
-        HealthBar.GetComponent<Image>().fillAmount = LifeValue / 6;
-        ShieldBar = GameObject.FindGameObjectWithTag("ShieldBar");
-        ShieldBar.GetComponent<Image>().fillAmount = Shield / 3;
-        BulletBar = GameObject.FindGameObjectWithTag("BulletBar");
-        BulletBar.GetComponent<Image>().fillAmount = Bullet / 180;
-        SkillBar = GameObject.FindGameObjectWithTag("SkillBar");
-        SkillBar.GetComponent<Image>().fillAmount = Skill / 20;
+        Bar = GameObject.FindGameObjectWithTag(tag);
+        Bar.GetComponent<Image>().fillAmount = num / maxnum;
     }
 
     private void SetText()
     {
-        textPlayerBullet.text = Bullet.ToString() + "/180";
-        textPlayerLifeValue.text = LifeValue.ToString() + "/6";
-        textPlayerShieldValue.text = Shield.ToString() + "/3";
+        textPlayerBullet.text = Bullet + "/" + Player.Instance.MaxBullet;
+        textPlayerLifeValue.text = LifeValue + "/" + Player.Instance.MaxPlayerLifeValue;
+        textPlayerShieldValue.text = Shield + "/" + Player.Instance.MaxShield;
     }
+
+
 
 }

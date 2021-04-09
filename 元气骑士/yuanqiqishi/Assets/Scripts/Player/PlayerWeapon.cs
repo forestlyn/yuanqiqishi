@@ -84,7 +84,7 @@ public class PlayerWeapon : MonoBehaviour
     //技能
     public void Skill()
     {
-        if (SkillTimeVal >= 20f && isskill)
+        if (SkillTimeVal >= Player.Instance.MaxSkillTimeVal && isskill)
         {
             SkillGunAttack();
             if (SkilltimeContinue >= 5f)

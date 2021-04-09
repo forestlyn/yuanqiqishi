@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
     //属性值
     public float moveSpeed;
-    public float timeVal = 5;
+    public float timeVal;
     public float AttackTime;
     public float lifeValue;
     public bool isEnemy1;
@@ -18,9 +18,6 @@ public class Enemy : MonoBehaviour
     private Transform player;
     public GameObject EnemyBullet;
     public Animator anim;
-    
-    private static Enemy instance;
-    public static Enemy Instance { get => instance; set => instance = value; }
 
    
     void Start()
@@ -31,7 +28,8 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-       
+            
+        
     }
 
     void FixedUpdate()
@@ -40,10 +38,8 @@ public class Enemy : MonoBehaviour
         {
             distance = Vector3.Distance(transform.position, player.position);
             if (distance >= 8 && lifeValue > 0) Move();
-            if (lifeValue > 0) FindPlayer();
-            timeVal += Time.fixedDeltaTime;
-        }
-              
+            if (lifeValue > 0) FindPlayer();          
+        }            
     }
     public void Die()
     {
@@ -77,6 +73,7 @@ public class Enemy : MonoBehaviour
     //发现玩家
     private void FindPlayer()
     {
+        timeVal += Time.deltaTime;
         Vector3 a = player.transform.position - transform.position;
         if (distance < 8 && distance >= 4)
         {
@@ -111,6 +108,7 @@ public class Enemy : MonoBehaviour
             timeVal = 0;
         }            
     }
+
     private void Attack1()
     {
         if (timeVal >= AttackTime && lifeValue > 0)

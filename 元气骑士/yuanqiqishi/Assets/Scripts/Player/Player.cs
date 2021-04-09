@@ -6,11 +6,15 @@ public class Player : MonoBehaviour
 {
     //属性值
     public float PlayerLifeValue;
+    public float MaxPlayerLifeValue;
     public float Shield;
+    public float MaxShield;
     public float Bullet;
+    public float MaxBullet;
     private float moveSpeed = 5;   
     public float playerATK;
     public float SkillTimeVal = 20;
+    public float MaxSkillTimeVal;
     public bool IsSkilling;
     public float RecoverTime;
    
@@ -21,7 +25,7 @@ public class Player : MonoBehaviour
 
     private static Player instance;
 
-    public static Player Instance { get => instance; set => instance = value; }
+    public static Player Instance { get => instance; private set => instance = value; }
     private void Awake()
     {
         Instance = this;
@@ -29,12 +33,18 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        PlayerManager.Instance.Shield = Shield;
-        PlayerManager.Instance.LifeValue = PlayerLifeValue;
-        PlayerManager.Instance.Bullet = Bullet;
+        
     }
 
-  
+    private void Update()
+    {
+        if (!PlayerManager.Instance.isDefeat)
+        {           
+            RecoverTime += Time.deltaTime;
+            SkillTimeVal += Time.deltaTime;
+        }
+    }
+
     private void FixedUpdate()
     {
         if (!PlayerManager.Instance.isDefeat)
@@ -48,7 +58,7 @@ public class Player : MonoBehaviour
     }
     
     
-    public void Die()
+    private void Die()
     {
         RecoverTime = 0;
         if (Shield > 0)
