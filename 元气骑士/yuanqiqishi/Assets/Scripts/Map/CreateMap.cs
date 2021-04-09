@@ -41,7 +41,7 @@ public class CreateMap : MonoBehaviour
             d = int.Parse(lines[3]);
             CreateWall(a, b, c, d);          
         }
-        System.Console.ReadLine();
+        file.Close();
 
         CreateItemGameObject(item[4], new Vector3(17, 30, 0), Quaternion.identity);
         CreateItemGameObject(item[5], new Vector3(17, 26, 0), Quaternion.identity);
