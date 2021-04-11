@@ -26,7 +26,7 @@ public class CreateMap : MonoBehaviour
     private void Awake()
     {
         //实例化墙
-        FileStream file = new FileStream("CreateWall.txt", FileMode.Open, FileAccess.Read);
+        /*FileStream file = new FileStream("CreateWall.txt", FileMode.Open, FileAccess.Read);
         StreamReader files = new StreamReader(file);
 
         for (int i = 0; i < 36; i++)
@@ -41,16 +41,16 @@ public class CreateMap : MonoBehaviour
             d = int.Parse(lines[3]);
             CreateWall(a, b, c, d);          
         }
-        file.Close();
+        file.Close();*/
 
-        CreateItemGameObject(item[4], new Vector3(17, 30, 0), Quaternion.identity);
-        CreateItemGameObject(item[5], new Vector3(17, 26, 0), Quaternion.identity);
-        
-                
+        CreateItemGameObject(item[4], new Vector3(325, 148, 0), Quaternion.identity);
+        CreateItemGameObject(item[5], new Vector3(329, 144, 0), Quaternion.identity);
+
+
         //实例化敌人
-        CreateItemGameObject(item[1], new Vector3(26,6, 0), Quaternion.identity);
-        CreateItemGameObject(item[2], new Vector3(26, 8, 0), Quaternion.identity);
-        CreateItemGameObject(item[3], new Vector3(26, 10, 0), Quaternion.identity);
+        CreateItemGameObject(item[1], new Vector3(320, 176, 0), Quaternion.identity);
+        CreateItemGameObject(item[2], new Vector3(324, 174, 0), Quaternion.identity);
+        CreateItemGameObject(item[3], new Vector3(328, 178, 0), Quaternion.identity);
 
         
 
@@ -86,15 +86,15 @@ public class CreateMap : MonoBehaviour
         int num = Random.Range(0, 3);
         if (num == 0)
         {
-            CreateItemGameObject(item[0], new Vector3(-1, 0, 0), Quaternion.identity);
+            CreateItemGameObject(item[0], new Vector3(283, 150, 0), Quaternion.identity);
         }
         else if (num == 1)
         {
-            CreateItemGameObject(item[0], new Vector3(3, -3, 0), Quaternion.identity);
+            CreateItemGameObject(item[0], new Vector3(283, 144, 0), Quaternion.identity);
         }
         else if (num == 2)
         {
-            CreateItemGameObject(item[0], new Vector3(3, -6, 0), Quaternion.identity);
+            CreateItemGameObject(item[0], new Vector3(288, 143, 0), Quaternion.identity);
         }
     }
 }
